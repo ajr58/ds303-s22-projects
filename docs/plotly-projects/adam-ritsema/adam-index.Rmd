@@ -17,6 +17,7 @@ library(tidyverse)
 library(ggridges)
 library(plotly)
 library(readxl)
+library(readr)
 ```
 
 ```{r, include=FALSE}
@@ -28,8 +29,6 @@ tuesdata <- tidytuesdayR::tt_load('2020-02-18')
 tuesdata <- tidytuesdayR::tt_load(2020, week = 8)
 
 food_consumption <- tuesdata$food_consumption
-
-food_consumption
 ```
 
 
